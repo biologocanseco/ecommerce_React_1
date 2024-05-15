@@ -1,29 +1,29 @@
 import CartWidget from "./CartWidget";
-import logo1 from "../assets/logo.jpg";
+import logo1 from "../assets/logo.png";
 const NavBar = () => {
   return (
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div>
         <img style={{ width: "100px" }} src={logo1} />
       </div>
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">La patrona</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+      <div className="container-fluid">
+        <a className="navbar-brand" href="#">VIDEOJUEGOS CEX</a>
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Reservaciones</a>
+        <div className="collapse navbar-collapse" id="navbarText">
+          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+            <li className="nav-item">
+              <a className="nav-link active" aria-current="page" href="#">PS4</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Nosotros</a>
+            <li className="nav-item">
+              <a className="nav-link" href="#">PS5</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Costos</a>
+            <li className="nav-item">
+              <a className="nav-link" href="#">SWITCH</a>
             </li>
           </ul>
-          <span class="navbar-text">
+          <span className="navbar-text">
             <CartWidget />
           </span>
         </div>
