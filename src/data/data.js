@@ -32,7 +32,7 @@ const products = [
     description: "Kratos ha dejado atrás su venganza contra los dioses del Olimpo y vive ahora en los dominios de las deidades y los monstruos nórdicos.",
     price: 190,
     stock: 2,
-    category: "PS4",
+    category:"PS4",
     image: "/image/godofwar.jpg"
   },
   {
@@ -59,7 +59,7 @@ const products = [
     description: "os juguetes vuelven a la carga en Mario vs. Donkey Kong. Resuelve puzles y pon a prueba tu agilidad para las plataformas en tu afán por recuperar los Minimarios robados. Esta versión mejorada del juego original de Game Boy Advance cuenta con gráficos y niveles, y maneras inéditas de jugar.",
     price: 250,
     stock: 10,
-    category: "PS5",
+    category: "SWITCH",
     image: "/image/mariovs.jpg"
   },
   {

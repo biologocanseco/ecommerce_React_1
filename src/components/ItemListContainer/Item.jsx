@@ -1,10 +1,16 @@
+import { Link } from "react-router-dom"
+
 const Item = ({product}) => {
   return (
-    <div>
-    <img src={product.image} style={{width: "150px"}}/>
+    <div className="item">
+    <img className="image-item"
+    src={product.image} style={{width: "200px" }}/>
     <p>{product.name}</p>
     <p>Precio: {product.price}</p>
-  </div>
+    <Link to={"/detail/" + product.id } >Ver Detalles</Link>
+    
+
+  </div >
   )
 }
 
