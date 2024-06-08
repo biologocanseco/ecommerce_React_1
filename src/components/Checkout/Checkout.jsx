@@ -6,6 +6,7 @@ import { addDoc, collection, doc, setDoc, Timestamp } from "firebase/firestore";
 import db from "../../db/db.js";
 import validateForm from "../../utils/validationYup.js";
 import { toast } from "react-toastify";
+import { Link } from "react-router-dom";
 
 const Checkout = () => {
   const [datosForm, setDatosForm] = useState({
@@ -86,6 +87,7 @@ const Checkout = () => {
             Favor de guardar el Id de su orden para futuro seguimiento y rastreo
           </p>
           <p>VideoJuegos CEX, Agradece su preferencia!!</p>
+          <button><Link to="/">continuar Comprando</Link></button>
         </div>
       ) : (
         <Formulario

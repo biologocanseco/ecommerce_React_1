@@ -5,6 +5,7 @@ import { collection, getDocs, query, where } from "firebase/firestore";
 import db from "../../db/db.js";
 
 import "./itemlistcontainer.css";
+import Banner from "../Banner/Banner.jsx";
 
 const ItemListContainer = () => {
   const [products, setProducts] = useState([]);
@@ -52,6 +53,7 @@ const ItemListContainer = () => {
 
   return (
     <div className="item-list-container">
+      <Banner />
       <h2 className="title-item-list-container">
         {" "}
         {idCategory
