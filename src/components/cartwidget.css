@@ -1,0 +1,18 @@
+.cartwidget {
+    display: flex;
+    align-items: center;
+    padding: 0 40 px;
+    color: white;
+}
+
+.cartwidget .number{
+    padding: 0 5px;
+}
+
+.cart-red{
+    color: red
+}
+
+.cart-white{
+    color: white
+}
